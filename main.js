@@ -3,10 +3,10 @@ const { criar, atualizar, listar, remover } = require("./modulo.js");
 
 while (true) {
     console.log(`
-    1. Para cadastrar um produto.
-    2. Para listar um produto.
-    3. Para atualizar produto.   
-    4. Para remover produto.
+    1. Para cadastrar um Pet.
+    2. Para listar um Pet.
+    3. Para atualizar Pet.   
+    4. Para remover Pet.
     5. Para sair.`);
 
     const opcao = Number(prompt("Escolha uma opção acima: "));
@@ -32,3 +32,5 @@ while (true) {
             break;
     }
 }
+
+c
